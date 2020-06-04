@@ -1,4 +1,4 @@
-from .. import calulation
+from calculation import calculate_time
 
 def front_to_back(passengers):
     return sorted(passengers, key = lambda x: x[1])
