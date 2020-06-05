@@ -7,7 +7,7 @@ A project to investigate the effectiveness of different boarding methods inspire
 ### Environment setup
 To setup the environment (recommended to be in a venv):
 ```
-pip install -r requirements.txt -y
+$ pip install -r requirements.txt -y
 ```
 
 ### Using the Simulation
@@ -24,3 +24,4 @@ For more information on command line arguments of `method.py` run
 ```
 $ python3 method.py --help
 ```
+Note: `calculation.py` only contains the time calculation function and cannot function on its own
